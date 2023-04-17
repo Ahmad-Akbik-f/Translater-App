@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/Normlize.css" />
+    <title>Translator</title>
+  </head>
+  <body>
+    <main>
+      <div class="translation">
+        <div class="text">
+          <textarea class="from" placeholder="Enter Text"></textarea>
+          <textarea class="to" disabled placeholder="Translation"></textarea>
+        </div>
+        <div class="options">
+          <div class="left opt">
+            <div class="icons">
+              <i class="fa fa-volume-up sound from" aria-hidden="true"></i>
+              <i class="fas fa-copy from copy"></i>
+            </div>
+            <select class="from"></select>
+          </div>
+          <div class="swap">
+            <i class="fas fa-long-arrow-alt-left"></i>
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </div>
+          <div class="right opt">
+            <select class="to"></select>
+            <div class="icons">
+              <i class="fa fa-volume-up sound to" aria-hidden="true"></i>
+              <i class="fas fa-copy to copy"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Translate Text</button>
+    </main>
+    <div class="theme sun">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </div>
+    <script src="./JS/languages.json"></script>
+    <script src="./JS/main.js" type="module"></script>
+  </body>
+</html>

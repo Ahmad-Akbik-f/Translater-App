@@ -1,0 +1,3 @@
+main background #161c33
+Body backgound #1a2039
+border color #1f274c
